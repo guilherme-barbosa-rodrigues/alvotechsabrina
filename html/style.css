@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #46177D;
+
+    font-family: Concert One;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.imagem-logo {
+    display: block;
+    width: 300px;
+    height: 140px;
+}
+#icone-menu {
+    padding: 20px;
+    font-size: 37px;
+}
+h1 {
+    margin-left: 180px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: center;
+    place-items: center;
+}
+.quadro {
+    background-color: #d9d9d9;
+    display: block;
+    width: 375px;
+    height: 265px;
+    border-radius: 25px;
+}
