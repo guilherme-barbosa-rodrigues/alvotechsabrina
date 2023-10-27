@@ -99,3 +99,9 @@ h1 {
     margin-top: 50px;
     margin-left: 15%;
 }
+.erro-tela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
