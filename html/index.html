@@ -4,26 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALVOTECH</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <header class="cabecalho ">
-        <span id="icone-menu" class="material-symbols-outlined icone-menu">
+    <header id="icabecalho" class="cabecalho ">
+        <span id="icone-cabecalho" class="material-symbols-outlined icone-menu">
             menu
             </span>
         <h1>SEJA BEM VINDO!</h1>
         <img class="imagem-logo" src="../img/Logo.png" alt="">
     </header>
-    <main>
+    <nav id="imenu" class="menu-lateral">
+        <span id="icone-menu" class="material-symbols-outlined icone-menu icone-lateral ">
+            menu
+            </span>
+        <div class="topico inicio">
+            <span class="icone material-symbols-outlined">
+                home
+                </span>
+            <p class="topico-titulo">Inicio</p>
+        </div>
+        <div class="topico config">
+            <span class="material-symbols-outlined  icone">
+                settings
+                </span>
+            <p class="topico-titulo">Configurações</p>
+        </div>
+        <div class="topico fale">
+            <span class="material-symbols-outlined icone">
+                mail
+                </span>
+            <p class="topico-titulo">Fale Conosco</p>
+        </div>
+        <div class="topico freq">
+            <span class="material-symbols-outlined icone">
+                contact_support
+                </span>
+            <p class="topico-titulo">Perguntas Frequentes</p>
+        </div>
+        <hr class="linha">
+        <div class="topico">
+            <span class="material-symbols-outlined icone">
+                logout
+                </span>
+            <p class="topico-titulo">Desconectar</p>
+        </div>
+        <img class="imagem-menu" src="../img/Logo.png" alt="">
+    </nav>
+    <main >
         <section class="container">
-            <div class="quadro primerio">
-                <p></p>
+            <div class=" primerio">
+                <div class="quadro"></div>
+                <p class="titulo">MARCAÇÃO DE PONTO</p>
             </div>
-            <div class="quadro secundo"></div>
-            <div class="quadro terceiro"></div>
-            <div class="quadro quarto"></div>
+            <div class=" secundo">
+                <div class="quadro"></div>
+                <p class="titulo">NOTIFICAÇÕES</p>
+            </div>
+            <div class=" terceiro">
+                <div class="quadro"></div>
+                <p class="titulo">LOCALIZAÇÃO</p>
+            </div>
+            <div class=" quarto">
+                <div class="quadro"></div>
+                <p class="titulo">CORRIGIR PONTO</p>
+            </div>
         </section>
     </main>
 </body>
+<script src="menu-lateral.js"></script>
 </html>
