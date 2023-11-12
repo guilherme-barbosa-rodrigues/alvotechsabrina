@@ -16,11 +16,12 @@
     color: white;
     text-align: center;
     padding: 10px;
+    height: 70px;
 }
 .imagem-logo {
     display: block;
-    width: 260px;
-    height: 100px;
+    width: 200px;
+    height: 60px;
 }
 .icone-menu {
     padding: 20px;
@@ -104,4 +105,8 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+}
+.imagem_banner{
+    width: 99vw;
+    height: 250px;
 }
